@@ -1,0 +1,23 @@
+version: 3.0.2
+apkFileName: com.samsung.wearable.watch6plugin.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 126032751
+  versionName: 2.2.13.26032751
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- gif
+- jpeg
+- jpg
+- ogg
+- png
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
