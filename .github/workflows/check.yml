@@ -42,9 +42,9 @@ jobs:
       run: |
        sudo apt-get update
        sudo apt-get install -y openssl signapk xxd
-       sudo wget -O /usr/local/bin/apktool https://bitbucket.org/iBotPeaches/apktool/raw/main/scripts/linux/apktool
+       sudo wget -O /usr/local/bin/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/main/scripts/linux/apktool
        sudo chmod +x /usr/local/bin/apktool
-       sudo wget -O /usr/local/bin/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.7.0.jar
+       sudo wget -O /usr/local/bin/apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v3.0.2/apktool_3.0.2.jar
 
     - name: Fetch APK
       run: |
