@@ -14,7 +14,6 @@ jobs:
       matrix:
         include:
           - package: com.samsung.android.app.watchmanager
-          - package: com.samsung.wearable.watchfaceplugin
           - package: com.samsung.wearable.watch6plugin
           - package: com.samsung.accessory.zenithmgr
       max-parallel: 1
